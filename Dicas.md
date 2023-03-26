@@ -27,7 +27,9 @@
 #Dicas uteis para programar CSS no VSCode
 
 
--Quando for utilizar o CSS para ajustar o HTML é sempre bom deixar o HTML já com classes formadas, pra isso basta colocar "class" após a primeira instrução;
+-É recomendado começar o código em CSS usando "*" antes de qualquer linha, isso desfaz qualquer alteração já feita automaticamente pelo editor de codigos;
+
+-Quando for utilizar o CSS para ajustar o HTML é sempre bom deixar o HTML já com classes formadas, pra isso basta colocar "class" após a primeira instrução do HTML e para chamar essa classe em CSS basta usar ".CLASSE {";
 
 -Utilizar o Google Fonts para importar fontes para o CSS, basta pesquisar a fonte e copiar o @import gerado por ele na aba selected families;
 
@@ -38,5 +40,11 @@
 -A maneira para linkar o CSS ao HTML é seguindo a seguinte linha: "<link rel="stylesheet" type="text/css" href="NOME-DO-CSS">", feito isso no head o HTML irá começar a seguir a diagramação do CSS;
 
 -Pode ser utilizado o guia do Flexbox para auxiliar na indentação de itens na página, podendo automaticamente ajustar distâncias;
+
+-Com o Flexbox podemos editar as propriedades dos parent e dos children, ou seja, das sessões pais e dos itens dessas sessões, os filhos;
+
+-Para editar a fonte de algum dos itens pode-se só copiar do Google Fonts na região "CSS rules";
+
+-"display-flex" é útil para alinhar horizontalmente todos itens de uma classe, alé disso é interessante deixar o "flex-direction: row" garantindo que irá ficar na horizontal;
 
 -
