@@ -63,7 +63,24 @@ body {
 
 .conteudo-principal-escrito-subtitulo {
     font-family: 'Sarala', sans-serif;
-    color: #FFF2E7;
+    color: #ECD6C4;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #ECD6C4;
+    width: 185px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    color: #2F2325;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo-principal-image {
+    height: 430px;
 }
