@@ -47,4 +47,14 @@
 
 -"display-flex" é útil para alinhar horizontalmente todos itens de uma classe, alé disso é interessante deixar o "flex-direction: row" garantindo que irá ficar na horizontal;
 
+-"display: flex" alinha toda uma célula;
+
+-Padding quando não justificado qual o lado que vai ser afastado faz com que TODOS os lados sejam afastados;
+
+-Outra maneira de centralizar algo sem prevcisar do flexbox é definindo na variável um "display: block" e "margin: auto";
+
+-Para estilizar um botão, para mudar de cor quando o mouse passar por cima deve ser feito após todas as propriedades, repetir a "variável:hover", assim pode-se editar e tudo só mudará quando o mouse estiver em cima do objeto;
+
+-Para gerar um link em um botão ou texto, basta usar o 'href="link-desejado"' que assim irá ser encaminhado para o local linkado quando clicar;
+
 -
