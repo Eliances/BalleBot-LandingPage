@@ -1,4 +1,4 @@
-# Treinohtml
+# Landing Page
 Git voltado para testes e desenvolvimento html
 
 # Além disso feito para treino do git e github
